@@ -22,7 +22,7 @@ export default buildConfig({
       baseDir: path.resolve(dirname),
     },
   },
-  cors: ['https://prw.studio', 'http://127.0.0.1:5500', 'https://prw-studio-3.netlify.app/'],
+  cors: ['https://prw.studio', 'http://127.0.0.1:5500', 'https://prw-studio-3.netlify.app'],
   collections: [Users, Media, Projects, Tags],
   editor: lexicalEditor(),
   secret: process.env.PAYLOAD_SECRET || '',
