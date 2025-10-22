@@ -6,6 +6,7 @@ export const Tags: CollectionConfig = {
     useAsTitle: 'name',
     defaultColumns: ['name', 'category', 'updatedAt'],
   },
+  auth: false,
   access: {
     read: () => true, // <-- allow public fetch
   },

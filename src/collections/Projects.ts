@@ -56,7 +56,8 @@ const InsightBlock: Block = {
 }
 
 export const Projects: CollectionConfig = {
-  slug: 'project',
+  slug: 'projects',
+  auth: false,
   access: {
     read: () => true,
   },
