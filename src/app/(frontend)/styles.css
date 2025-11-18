@@ -10,7 +10,7 @@ html {
   font-size: 18px;
   line-height: 32px;
 
-  background: rgb(0, 0, 0);
+  background: rgb(199, 199, 199);
   -webkit-font-smoothing: antialiased;
 }
 
@@ -21,12 +21,12 @@ body,
 }
 
 body {
-  font-family: system-ui;
+  font-family: 'Times New Roman';
   font-size: 18px;
   line-height: 32px;
 
   margin: 0;
-  color: rgb(1000, 1000, 1000);
+  color: rgb(11, 11, 11);
 
   @media (max-width: 1024px) {
     font-size: 15px;
@@ -124,13 +124,18 @@ svg {
     a {
       text-decoration: none;
       padding: 0.25rem 0.5rem;
-      border-radius: 4px;
+      border-radius: 2px;
     }
 
     .admin {
       color: rgb(0, 0, 0);
-      background: rgb(1000, 1000, 1000);
-      border: 1px solid rgb(0, 0, 0);
+      background: transparent;
+      transition: all 0.2s ease-in-out;
+      box-shadow: 0.2rem 0.2rem 0.25rem rgba(11, 11, 11, 0.1);
+    }
+    .admin:hover {
+      color: rgb(244, 154, 98);
+      box-shadow: 0.2rem 0.2rem 0.25rem rgba(244, 154, 98, 0.33);
     }
 
     .docs {
