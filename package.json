@@ -28,10 +28,10 @@
     "@payloadcms/ui": "3.59.1",
     "cross-env": "^7.0.3",
     "graphql": "^16.8.1",
-    "next": "15.5.5",
+    "next": "16.1.1",
     "payload": "3.59.1",
-    "react": "19.1.0",
-    "react-dom": "19.1.0"
+    "react": "19.2.3",
+    "react-dom": "19.2.3"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3.2.0",
@@ -43,7 +43,7 @@
     "@vitejs/plugin-react": "4.5.2",
     "dotenv": "^17.2.3",
     "eslint": "^9.16.0",
-    "eslint-config-next": "15.4.4",
+    "eslint-config-next": "16.1.1",
     "jsdom": "26.1.0",
     "playwright": "1.54.1",
     "playwright-core": "1.54.1",
@@ -52,7 +52,7 @@
     "vite-tsconfig-paths": "5.1.4",
     "vitest": "3.2.3"
   },
-  "packageManager": "pnpm@10.18.1",
+  "packageManager": "pnpm@10.28.0+sha512.05df71d1421f21399e053fde567cea34d446fa02c76571441bfc1c7956e98e363088982d940465fd34480d4d90a0668bc12362f8aa88000a64e83d0b0e47be48",
   "engines": {
     "node": "^18.20.2 || >=20.9.0"
   },

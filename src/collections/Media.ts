@@ -60,6 +60,32 @@ export const Media: CollectionConfig = {
           },
         },
       },
+      {
+        name: 'thumbnail',
+        width: 100,
+        height: 100,
+        fit: 'cover',
+        position: 'center',
+        formatOptions: {
+          format: 'webp',
+          options: {
+            quality: 30,
+          },
+        },
+      },
+      {
+        name: 'square',
+        width: 500,
+        height: 500,
+        fit: 'cover',
+        position: 'center',
+        formatOptions: {
+          format: 'webp',
+          options: {
+            quality: 85,
+          },
+        },
+      }
     ],
     mimeTypes: ['image/*', 'video/*'],
     formatOptions: {
